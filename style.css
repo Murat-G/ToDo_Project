@@ -1,0 +1,67 @@
+.header {
+    display: flex;
+    background-color: rgb(184, 35, 184);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(238, 222, 222);
+    height: auto;
+}
+h2 {
+    font-size: 3em;
+}
+#input {
+    width: 30vw;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+#button {
+    width: 10vw;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.counter {
+    display: flex;
+    width: 40vw ;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: bold;
+}
+.content {
+    color: white;
+    height: auto;
+    font-size: 20px;
+}
+.list {
+ position: relative;
+ margin: 5px;
+ padding: 10px;
+ background-color: grey;
+}
+.list:hover {
+    background-color: lightgray;
+    color: rgb(65, 80, 90);
+}
+
+.checked {
+ margin: 5px;
+ padding: 10px;
+ background-color:rgb(95, 107, 216);
+ text-decoration: line-through; 
+}
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 8px 16px 10px 16px;
+  }
+.close:hover {
+    background-color: #F44336;
+    color: white;
+  }
